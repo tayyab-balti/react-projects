@@ -42,4 +42,3 @@ else → remove from array;
 -	Inside handler, setSelected or setMultiple updates state
 -	React sees state changed → re-renders the UI
 -	In re-render, if selected or multiple contains that ID → show the answer
->>>>>>> e760c5ad9ccc9a365399c5eef2cb2fdad5c13fea
