@@ -1,5 +1,7 @@
 # 📁 Multi-Project README Templates
 
+A collection of five React.js projects demonstrating essential frontend development skills: **React Accordion** (interactive UI components), **Random Color Generator** (state management & hooks), **Image Slider** (API integration & navigation), **Load More Data** (pagination & data fetching), and **Star Rating** (user interactions & event handling). Each project showcases modern React patterns, responsive design, and clean code architecture.
+
 ## 🔹 1. React Accordion Component
 
 # 🧩 React Accordion
@@ -57,9 +59,12 @@ A dynamic color generator that switches between **HEX** and **RGB** formats. Bui
 
 ---
 
-## 🎥 Demo Preview
+## 🎥 Preview
 
-> Add your preview gif or screenshot here.
+<div align="center">
+  <img width="45%" alt="HEX Color Mode" src="https://github.com/user-attachments/assets/df7a60ed-c6e1-477d-99be-2c5d899a1858" />
+  <img width="45%" alt="RGB Color Mode" src="https://github.com/user-attachments/assets/8abbce8e-4370-4b0b-91e9-ceab6a6ae813" />
+</div>
 
 ---
 
@@ -89,7 +94,7 @@ const b = Math.floor(Math.random() * 256);
 
 ## 💡 What I Learned
 
-- Using useEffect to trigger logic based on state change
+- Using `useEffect` to trigger logic based on state change
 - Efficient color generation logic
 - Managing conditional UI based on user actions
 
@@ -105,7 +110,7 @@ A responsive and functional image carousel/slider built using **React**, consumi
 
 ## 📸 Preview
 
-> Add image/gif preview of the image slider in action.
+<img width="100%" alt="React Image Slider" src="https://github.com/user-attachments/assets/f03bcd54-1524-40a7-ba0d-0d7cdca64c41" />
 
 ---
 
@@ -130,9 +135,7 @@ A responsive and functional image carousel/slider built using **React**, consumi
 setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
 ```
 
-## 🧪 API Example
-
-You can use an API like:
+## 🧪 API Used
 
 ```bash
 https://picsum.photos/v2/list?page=1&limit=5
@@ -157,7 +160,10 @@ A React component that implements pagination by loading products from an API in 
 
 ## 📸 Preview
 
-> Add your preview gif or screenshot here showing the load more functionality.
+<div align="center">
+  <img width="45%" alt="Product Grid Loading" src="https://github.com/user-attachments/assets/897f6db5-4bd7-428c-8f7c-f0c24687acc5" />
+  <img width="45%" alt="All Products Loaded" src="https://github.com/user-attachments/assets/e73c1466-8239-43a9-a096-272c9eb66738" />
+</div>
 
 ---
 
@@ -215,7 +221,7 @@ A customizable star rating component built with React, featuring hover effects a
 
 ## 📸 Preview
 
-> Add your preview gif or screenshot showing the star rating in action.
+<img width="100%" alt="Star Rating Component" src="https://github.com/user-attachments/assets/48a303e3-a9b2-4deb-9e7b-ba09b31f4507" />
 
 ---
 
@@ -269,11 +275,3 @@ const [hover, setHover] = useState(0);
 - Creating reusable components with props
 
 ---
-
-## 📚 Pro Tips for Making These Recruiter-Attractive on GitHub
-
-- ✅ Add a short **project description** under the repo name
-- ✅ Upload working **demo video or gif** (you can record with Loom, Screenity, or VSCode Recorder)
-- ✅ Add **live demo link** (if hosted)
-- ✅ Pin top projects to your GitHub profile
-- ✅ Use **project boards** or issues if it's a larger project
