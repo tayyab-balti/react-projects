@@ -1,16 +1,27 @@
-import { useState } from 'react'
-import './App.css'
-import Accordian from './components/accordian'
-import './components/accordian/styles.css'
+import { useState } from "react";
+import Accordian from "./components/accordian";
+import "./components/accordian/styles.css";
+import RandomColor from "./components/random-color";
+import StarRating from "./components/star-rating";
+import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <Accordian />
+      {/* <Accordian /> */}
+      {/* <RandomColor /> */}
+      {/* <StarRating noOfStars={10} /> */}
+      {/* <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        limit={"10"}
+        page={"1"}
+      /> */}
+      <LoadMoreData />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
